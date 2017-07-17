@@ -1,0 +1,21 @@
+.styles {
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+}
+#color {
+	background-color: teal;
+}
+
+.music, #addMusic{
+	padding: 8px;
+	margin: 10px;
+	color: white;
+	background-color: teal;
+	border-radius: 10px;
+}
+.music:hover, #addMusic:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+form {
+	margin: 20px;
+}
