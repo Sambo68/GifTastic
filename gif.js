@@ -1,4 +1,4 @@
-// Initial array of emotions
+// Initial array of bands and singers
 $(document).ready(function(){
     var topics = ['ADELE', 'DRAKE', 'PAUL MCCARTNEY', 'BRUNO MARS', 'COLDPLAY', 'JAY Z', 'SHAKIRA', 'MC HAMMER'];
 
