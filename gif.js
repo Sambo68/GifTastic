@@ -25,7 +25,7 @@ $(document).ready(function(){
     //The "this" keyword refers to the button that was clicked
     var music = $(this).html();
     //Constructing a URL to search Giphy for the singer or band still and animate images    
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + music + "&api_key=dc6zaTOxFJmzC&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + music + "&api_key=dc6zaTOxFJmzC&limit=10";
         //Performing the AJAX GET request
         $.ajax({
             url: queryURL, 
